@@ -1,0 +1,189 @@
+{
+  "_format": "ethers-rs-sol-cache-3",
+  "paths": {
+    "artifacts": "out",
+    "sources": "src",
+    "tests": "test",
+    "libraries": [
+      "lib"
+    ]
+  },
+  "files": {
+    "/home/pi/web3/f3/lib/ds-test/src/test.sol": {
+      "lastModificationDate": 1651038187704,
+      "contentHash": "82a8604fe648c30a9bd56444368704f0",
+      "sourceName": "lib/ds-test/src/test.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [],
+      "versionRequirement": ">=0.5.0",
+      "artifacts": {
+        "DSTest": {
+          "0.8.13+commit.abaa5c0e.Linux.gcc": "test.sol/DSTest.json"
+        }
+      }
+    },
+    "/home/pi/web3/f3/src/TEST2_flatten.sol": {
+      "lastModificationDate": 1651038452435,
+      "contentHash": "8693165d30e343525233d2cb4832eeae",
+      "sourceName": "src/TEST2_flatten.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [],
+      "versionRequirement": "^0.8.4",
+      "artifacts": {
+        "AccessControl": {
+          "0.8.13+commit.abaa5c0e.Linux.gcc": "TEST2_flatten.sol/AccessControl.json"
+        },
+        "AccessControlEnumerable": {
+          "0.8.13+commit.abaa5c0e.Linux.gcc": "TEST2_flatten.sol/AccessControlEnumerable.json"
+        },
+        "Address": {
+          "0.8.13+commit.abaa5c0e.Linux.gcc": "TEST2_flatten.sol/Address.json"
+        },
+        "CAT": {
+          "0.8.13+commit.abaa5c0e.Linux.gcc": "TEST2_flatten.sol/CAT.json"
+        },
+        "Context": {
+          "0.8.13+commit.abaa5c0e.Linux.gcc": "TEST2_flatten.sol/Context.json"
+        },
+        "Counters": {
+          "0.8.13+commit.abaa5c0e.Linux.gcc": "TEST2_flatten.sol/Counters.json"
+        },
+        "ERC165": {
+          "0.8.13+commit.abaa5c0e.Linux.gcc": "TEST2_flatten.sol/ERC165.json"
+        },
+        "ERC721": {
+          "0.8.13+commit.abaa5c0e.Linux.gcc": "TEST2_flatten.sol/ERC721.json"
+        },
+        "ERC721Burnable": {
+          "0.8.13+commit.abaa5c0e.Linux.gcc": "TEST2_flatten.sol/ERC721Burnable.json"
+        },
+        "ERC721Enumerable": {
+          "0.8.13+commit.abaa5c0e.Linux.gcc": "TEST2_flatten.sol/ERC721Enumerable.json"
+        },
+        "ERC721Pausable": {
+          "0.8.13+commit.abaa5c0e.Linux.gcc": "TEST2_flatten.sol/ERC721Pausable.json"
+        },
+        "ERC721PresetMinterPauserAutoId": {
+          "0.8.13+commit.abaa5c0e.Linux.gcc": "TEST2_flatten.sol/ERC721PresetMinterPauserAutoId.json"
+        },
+        "EnumerableSet": {
+          "0.8.13+commit.abaa5c0e.Linux.gcc": "TEST2_flatten.sol/EnumerableSet.json"
+        },
+        "IAccessControl": {
+          "0.8.13+commit.abaa5c0e.Linux.gcc": "TEST2_flatten.sol/IAccessControl.json"
+        },
+        "IAccessControlEnumerable": {
+          "0.8.13+commit.abaa5c0e.Linux.gcc": "TEST2_flatten.sol/IAccessControlEnumerable.json"
+        },
+        "IERC165": {
+          "0.8.13+commit.abaa5c0e.Linux.gcc": "TEST2_flatten.sol/IERC165.json"
+        },
+        "IERC721": {
+          "0.8.13+commit.abaa5c0e.Linux.gcc": "TEST2_flatten.sol/IERC721.json"
+        },
+        "IERC721Enumerable": {
+          "0.8.13+commit.abaa5c0e.Linux.gcc": "TEST2_flatten.sol/IERC721Enumerable.json"
+        },
+        "IERC721Metadata": {
+          "0.8.13+commit.abaa5c0e.Linux.gcc": "TEST2_flatten.sol/IERC721Metadata.json"
+        },
+        "IERC721Receiver": {
+          "0.8.13+commit.abaa5c0e.Linux.gcc": "TEST2_flatten.sol/IERC721Receiver.json"
+        },
+        "Pausable": {
+          "0.8.13+commit.abaa5c0e.Linux.gcc": "TEST2_flatten.sol/Pausable.json"
+        },
+        "Strings": {
+          "0.8.13+commit.abaa5c0e.Linux.gcc": "TEST2_flatten.sol/Strings.json"
+        }
+      }
+    },
+    "/home/pi/web3/f3/test/Contract.t.sol": {
+      "lastModificationDate": 1651038182625,
+      "contentHash": "3d0825009c70aeaebba898360d09b12b",
+      "sourceName": "test/Contract.t.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [
+        "lib/ds-test/src/test.sol"
+      ],
+      "versionRequirement": "^0.8.13",
+      "artifacts": {
+        "ContractTest": {
+          "0.8.13+commit.abaa5c0e.Linux.gcc": "Contract.t.sol/ContractTest.json"
+        }
+      }
+    }
+  }
+}
